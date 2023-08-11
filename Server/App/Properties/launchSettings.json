@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Server.App": {
+      "commandName": "Project",
+      "commandLineArgs": "--Process=1 --Console=1 --Develop=1"
+    }
+  }
+}
