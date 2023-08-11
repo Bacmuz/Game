@@ -1,0 +1,59 @@
+2023-07-18 10:44:16.4548 (Scene.cs:34) scene create: Process Process 1176275131581071361 1176275131581071361 0
+2023-07-18 10:44:16.5055 (Program.cs:41) server start........................ 1176275131581071361
+2023-07-18 10:44:16.8258 (Scene.cs:49) scene create: Realm Realm 1 262145 1
+2023-07-18 10:44:16.8258 (Scene.cs:49) scene create: Gate Gate1 2 262146 1
+2023-07-18 10:44:16.8258 (Scene.cs:49) scene create: Gate Gate2 3 262147 1
+2023-07-18 10:44:16.8258 (Scene.cs:49) scene create: Location Location 4 262148 1
+2023-07-18 10:44:16.8258 (Scene.cs:49) scene create: Map Map1 5 262149 1
+2023-07-18 10:44:16.8258 (Scene.cs:49) scene create: Map Map2 6 262150 1
+2023-07-18 10:44:22.5404 (Session.cs:36) session create: zone: 1 id: 8589934592 1689648262540 
+2023-07-18 10:44:22.5966 (C2R_LoginHandler.cs:14) gate address: { "_t" : "StartSceneConfig", "InstanceId" : NumberLong(262147), "Type" : 3, "_id" : 3, "Process" : 1, "Zone" : 1, "SceneType" : "Gate", "Name" : "Gate2", "OuterPort" : 10004 }
+2023-07-18 10:44:22.6059 (Session.cs:36) session create: zone: 0 id: 1 1689648262605 
+2023-07-18 10:44:22.6059 (Session.cs:36) session create: zone: 0 id: 8589934592 1689648262615 
+2023-07-18 10:44:22.6610 (TChannel.cs:404) TChannel OnError: 100208 127.0.0.1:62244
+2023-07-18 10:44:22.6610 (TChannel.cs:102) channel dispose: 8589934592 127.0.0.1:62244
+2023-07-18 10:44:22.6610 (Session.cs:52) session dispose: 127.0.0.1:62244 id: 8589934592 ErrorCode: 100208, please see ErrorCode.cs! 1689648262665
+2023-07-18 10:44:22.6757 (Session.cs:36) session create: zone: 1 id: 8589934592 1689648262675 
+2023-07-18 10:44:25.9534 (Scene.cs:49) scene create: Map GateMap 1176275750056361985 1176275750056361985 1
+2023-07-18 10:44:25.9756 (LocationProxyComponentSystem.cs:39) location proxy lock 1920906290431852549, 1176275750056361989 1689648265975
+2023-07-18 10:44:25.9874 (LocationComponentSystem.cs:52) location lock key: 1920906290431852549 instanceId: 1176275750056361989
+2023-07-18 10:44:26.1537 (LocationProxyComponentSystem.cs:46) location proxy unlock 1920906290431852549, 1176275818775838720 1689648266153
+2023-07-18 10:44:26.1691 (LocationComponentSystem.cs:85) location unlock key: 1920906290431852549 instanceId: 1176275750056361989 newInstanceId: 1176275818775838720
+2023-07-18 10:44:27.7946 (TChannel.cs:404) TChannel OnError: 100208 127.0.0.1:62246
+2023-07-18 10:44:27.7946 (TChannel.cs:102) channel dispose: 8589934592 127.0.0.1:62246
+2023-07-18 10:44:27.7946 (Session.cs:52) session dispose: 127.0.0.1:62246 id: 8589934592 ErrorCode: 100208, please see ErrorCode.cs! 1689648267800
+2023-07-18 10:44:27.8126 (LocationComponentSystem.cs:100) location get key: 1920906290431852549 instanceId: 1176275818775838720
+2023-07-18 10:47:17.4053 (Scene.cs:34) scene create: Process Process 1176287569806360577 1176287569806360577 0
+2023-07-18 10:47:17.4673 (Program.cs:41) server start........................ 1176287569806360577
+2023-07-18 10:47:17.7523 (Scene.cs:49) scene create: Realm Realm 1 262145 1
+2023-07-18 10:47:17.7605 (Scene.cs:49) scene create: Gate Gate1 2 262146 1
+2023-07-18 10:47:17.7605 (Scene.cs:49) scene create: Gate Gate2 3 262147 1
+2023-07-18 10:47:17.7605 (Scene.cs:49) scene create: Location Location 4 262148 1
+2023-07-18 10:47:17.7605 (Scene.cs:49) scene create: Map Map1 5 262149 1
+2023-07-18 10:47:17.7605 (Scene.cs:49) scene create: Map Map2 6 262150 1
+2023-07-18 10:47:24.7842 (Session.cs:36) session create: zone: 1 id: 8589934592 1689648444784 
+2023-07-18 10:47:24.8286 (C2R_LoginHandler.cs:14) gate address: { "_t" : "StartSceneConfig", "InstanceId" : NumberLong(262146), "Type" : 3, "_id" : 2, "Process" : 1, "Zone" : 1, "SceneType" : "Gate", "Name" : "Gate1", "OuterPort" : 10003 }
+2023-07-18 10:47:24.8286 (C2R_LoginHandler.cs:16) Reload Succes!!!!!
+2023-07-18 10:47:24.8286 (Session.cs:36) session create: zone: 0 id: 1 1689648444837 
+2023-07-18 10:47:24.8461 (Session.cs:36) session create: zone: 0 id: 8589934592 1689648444846 
+2023-07-18 10:47:24.8936 (TChannel.cs:404) TChannel OnError: 100208 127.0.0.1:62484
+2023-07-18 10:47:24.8936 (TChannel.cs:102) channel dispose: 8589934592 127.0.0.1:62484
+2023-07-18 10:47:24.8936 (Session.cs:52) session dispose: 127.0.0.1:62484 id: 8589934592 ErrorCode: 100208, please see ErrorCode.cs! 1689648444897
+2023-07-18 10:47:24.8936 (Session.cs:36) session create: zone: 1 id: 8589934592 1689648444898 
+2023-07-18 10:50:16.8764 (TChannel.cs:404) TChannel OnError: 100208 127.0.0.1:62486
+2023-07-18 10:50:16.8764 (TChannel.cs:102) channel dispose: 8589934592 127.0.0.1:62486
+2023-07-18 10:50:16.8854 (Session.cs:52) session dispose: 127.0.0.1:62486 id: 8589934592 ErrorCode: 100208, please see ErrorCode.cs! 1689648616885
+2023-07-18 10:50:16.8854 (LocationComponentSystem.cs:100) location get key: 1920909417168044037 instanceId: 0
+2023-07-18 10:50:32.2663 (Session.cs:36) session create: zone: 1 id: 12884901888 1689648632266 
+2023-07-18 10:50:32.2814 (C2R_LoginHandler.cs:14) gate address: { "_t" : "StartSceneConfig", "InstanceId" : NumberLong(262147), "Type" : 3, "_id" : 3, "Process" : 1, "Zone" : 1, "SceneType" : "Gate", "Name" : "Gate2", "OuterPort" : 10004 }
+2023-07-18 10:50:32.2814 (C2R_LoginHandler.cs:16) Reload Succes!!!!!
+2023-07-18 10:50:32.3441 (TChannel.cs:404) TChannel OnError: 100208 127.0.0.1:62721
+2023-07-18 10:50:32.3441 (TChannel.cs:102) channel dispose: 12884901888 127.0.0.1:62721
+2023-07-18 10:50:32.3441 (Session.cs:52) session dispose: 127.0.0.1:62721 id: 12884901888 ErrorCode: 100208, please see ErrorCode.cs! 1689648632344
+2023-07-18 10:50:32.3441 (Session.cs:36) session create: zone: 1 id: 8589934592 1689648632344 
+2023-07-18 10:51:17.8936 (ActorLocationSenderSystem.cs:21) actor location remove: 1920909417168044037
+2023-07-18 10:51:49.0243 (TChannel.cs:404) TChannel OnError: 100208 127.0.0.1:62722
+2023-07-18 10:51:49.0243 (TChannel.cs:102) channel dispose: 8589934592 127.0.0.1:62722
+2023-07-18 10:51:49.0243 (Session.cs:52) session dispose: 127.0.0.1:62722 id: 8589934592 ErrorCode: 100208, please see ErrorCode.cs! 1689648709025
+2023-07-18 10:51:49.0403 (LocationComponentSystem.cs:100) location get key: 1920912646983450629 instanceId: 0
+2023-07-18 10:52:57.9708 (ActorLocationSenderSystem.cs:21) actor location remove: 1920912646983450629

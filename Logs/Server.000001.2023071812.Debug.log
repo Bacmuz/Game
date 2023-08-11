@@ -1,0 +1,31 @@
+2023-07-18 12:13:23.9496 (Scene.cs:34) scene create: Process Process 1176642574623178753 1176642574623178753 0
+2023-07-18 12:13:23.9999 (Program.cs:41) server start........................ 1176642574623178753
+2023-07-18 12:13:24.2520 (Scene.cs:49) scene create: Realm Realm 1 262145 1
+2023-07-18 12:13:24.2583 (Scene.cs:49) scene create: Gate Gate1 2 262146 1
+2023-07-18 12:13:24.2583 (Scene.cs:49) scene create: Gate Gate2 3 262147 1
+2023-07-18 12:13:24.2583 (Scene.cs:49) scene create: Location Location 4 262148 1
+2023-07-18 12:13:24.2583 (Scene.cs:49) scene create: Map Map1 5 262149 1
+2023-07-18 12:13:24.2583 (Scene.cs:49) scene create: Map Map2 6 262150 1
+2023-07-18 12:13:29.9215 (ReloadConfigConsoleHandler.cs:15) C must have config name, like: C UnitConfig
+2023-07-18 12:13:37.2760 (ReloadConfigConsoleHandler.cs:28) reload config UnitConfig finish!
+2023-07-18 12:13:37.2760 (ReloadConfigConsoleHandler.cs:30) 热更新配置:米克尔
+2023-07-18 12:14:09.0943 (ReloadConfigConsoleHandler.cs:28) reload config UnitConfig finish!
+2023-07-18 12:14:09.0943 (ReloadConfigConsoleHandler.cs:30) 热更新配置:米克尔重载
+2023-07-18 12:18:32.4801 (Scene.cs:34) scene create: Process Process 1176663808941490177 1176663808941490177 0
+2023-07-18 12:18:32.5305 (Program.cs:41) server start........................ 1176663808941490177
+2023-07-18 12:18:32.7738 (Scene.cs:49) scene create: Realm Realm 1 262145 1
+2023-07-18 12:18:32.7738 (Scene.cs:49) scene create: Gate Gate1 2 262146 1
+2023-07-18 12:18:32.7738 (Scene.cs:49) scene create: Gate Gate2 3 262147 1
+2023-07-18 12:18:32.7738 (Scene.cs:49) scene create: Location Location 4 262148 1
+2023-07-18 12:18:32.7738 (Scene.cs:49) scene create: Map Map1 5 262149 1
+2023-07-18 12:18:32.7738 (Scene.cs:49) scene create: Map Map2 6 262150 1
+2023-07-18 12:19:21.8504 (Scene.cs:34) scene create: Process Process 1176667176195850241 1176667176195850241 0
+2023-07-18 12:19:21.9019 (Program.cs:41) server start........................ 1176667176195850241
+2023-07-18 12:19:22.1049 (Scene.cs:49) scene create: Realm Realm 1 262145 1
+2023-07-18 12:19:22.1049 (Scene.cs:49) scene create: Gate Gate1 2 262146 1
+2023-07-18 12:19:22.1049 (Scene.cs:49) scene create: Gate Gate2 3 262147 1
+2023-07-18 12:19:22.1049 (Scene.cs:49) scene create: Location Location 4 262148 1
+2023-07-18 12:19:22.1049 (Scene.cs:49) scene create: Map Map1 5 262149 1
+2023-07-18 12:19:22.1049 (Scene.cs:49) scene create: Map Map2 6 262150 1
+2023-07-18 12:19:38.4781 (ReloadConfigConsoleHandler.cs:20) All热更新配置:米克尔重载
+2023-07-18 12:19:54.0213 (ReloadConfigConsoleHandler.cs:20) All热更新配置:米克尔重载All
