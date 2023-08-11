@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5919744943984158223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6640222491357627842}
+  - component: {fileID: 8791968482410804738}
+  m_Layer: 0
+  m_Name: CodeDll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6640222491357627842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5919744943984158223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8791968482410804738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5919744943984158223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 502d8cafd6a5a0447ab1db9a24cdcb10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+  - key: Code.dll
+    gameObject: {fileID: 4900000, guid: ba089884ce5c01548b8a2e3ad375f036, type: 3}
+  - key: Code.pdb
+    gameObject: {fileID: 4900000, guid: 92e2b1ab3a8215044851e978c5a9962b, type: 3}
+  - key: mscorlib.dll
+    gameObject: {fileID: 4900000, guid: 908c231f48ac00a41abe7aee787f3b74, type: 3}
+  - key: System.Core.dll
+    gameObject: {fileID: 4900000, guid: 4680532dab9186341862557af8020a23, type: 3}
+  - key: System.dll
+    gameObject: {fileID: 4900000, guid: 31469dd4687d1bb4a8fc5491f6511fe0, type: 3}
+  - key: Unity.Mono.dll
+    gameObject: {fileID: 4900000, guid: eba99121a7f02b74a91d6597053f036b, type: 3}
+  - key: Unity.ThirdParty.dll
+    gameObject: {fileID: 4900000, guid: 8cecabf70c8aceb41ab56fc9d1fa5d07, type: 3}
