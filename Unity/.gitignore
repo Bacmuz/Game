@@ -2,3 +2,16 @@
 /Unity.ThirdParty.csproj
 /Unity.sln
 /Unity.sln.DotSettings.user
+
+/Unity.Mono.csproj
+/Unity.ThirdParty.csproj
+/Unity.sln
+/Unity.sln.DotSettings.user
+
+##ignore this file##
+/Build/
+/Bundles/
+/BundlesCache/
+/HybridCLRData/
+/Library/
+/Logs/
