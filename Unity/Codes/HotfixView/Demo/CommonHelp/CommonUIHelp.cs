@@ -15,12 +15,29 @@ namespace ET
 
             //移除关卡场景,此代码需要再最后,如果在前面移除后面将不会执行
             UIHelper.Remove(scene, UIType.UIGuanQia).Coroutine();
+
+            CommonUIHelp.EnterGuanQiaCreate(scene);
         }
 
 
         //进入关卡创建对应的角色和UI
-        public static void EnterGuanQiaCreate(Scene scene) { 
-        
+        public static async void EnterGuanQiaCreate(Scene scene) {
+
+            await TimerComponent.Instance.WaitAsync(5000);
+
+            Debug.Log("1111111111111111111111111111111");
+            //创建主角
+            UnitInfo info = new UnitInfo();
+            info.X = -1f;
+            info.Y = -0.6f;
+            info.Z = -4.8f;
+            Unit unit = UnitFactoryDanJi.CreatePlay(scene, info);
+            GameObject playerObj = MonoBehaviour.Instantiate(GameLoadAssetsHelp.LoadUnit(LoadAssets_UnitType.Player, "Player"));
+            playerObj.transform.position = new Vector3(-1f,- 0.6f, -4.8f);
+            //Camera.main.AddComponent<CameraMainTargetComponent>();
+
+            Unit aa = new Unit();
+            aa.AddComponent<CameraMainTargetComponent>();
             //修改当前主摄像机跟随目标
             //Camera.main.transform.GetComponent<>
 
