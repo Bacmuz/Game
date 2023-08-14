@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace ET
 {
@@ -17,7 +18,8 @@ namespace ET
 
 		public static void Remove(this UIComponent self, string uiType)
 		{
-			if (!self.UIs.TryGetValue(uiType, out UI ui))
+            //移除UI
+            if (!self.UIs.TryGetValue(uiType, out UI ui))
 			{
 				return;
 			}

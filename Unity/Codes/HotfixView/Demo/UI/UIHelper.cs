@@ -7,7 +7,6 @@ namespace ET
     {
         public static async ETTask<UI> Create(Scene scene, string uiType, UILayer uiLayer)
         {
-            Log.Warning("2222222222222");
             UI ui = await scene.GetComponent<UIComponent>().Create(uiType, uiLayer);
             return ui;
         }

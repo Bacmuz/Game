@@ -35,19 +35,18 @@ namespace ET
     public static class UIGameGongGaoComponentSystem
     {
 
-        public static void OnBtnClose(this UIGameGongGaoComponent self) {
-
-            self.Parent.Dispose();
-
+        public static async void OnBtnClose(this UIGameGongGaoComponent self) {
+            await UIHelper.Remove(self.ZoneScene(), UIType.UIGongGao);
         }
  
         public static void ShowImg(this UIGameGongGaoComponent self)
         {
-
-            //Sprite spr = GameLoadAssetsHelp.LoadSpritePath(LoadAssets_IconType.ItemIcon, "1003");
-            //self.GongGaoSpr.GetComponent<Image>().sprite = spr;
-            Sprite spr = Resources.Load("1001", typeof(Sprite)) as Sprite;
+            //º”‘ÿicon
+            Sprite spr = GameLoadAssetsHelp.LoadSpritePath(LoadAssets_IconType.ItemIcon, "1003");
             self.GongGaoSpr.GetComponent <Image>().sprite = spr;
+
+            //≤‚ ‘º”‘ÿ≥°æ∞
+            GameLoadAssetsHelp.LoadAsyncScene("Map2");
         }
     }
 

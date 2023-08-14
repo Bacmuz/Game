@@ -5947,24 +5947,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kk\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ET6HotUpdateModel\\Server\\Model\\Server.Model.csproj",
+      "projectUniqueName": "D:\\Game\\Server\\Model\\Server.Model.csproj",
       "projectName": "Server.Model",
-      "projectPath": "C:\\ET6HotUpdateModel\\Server\\Model\\Server.Model.csproj",
-      "packagesPath": "C:\\Users\\kk\\.nuget\\packages\\",
-      "outputPath": "C:\\ET6HotUpdateModel\\Server\\Model\\obj\\",
+      "projectPath": "D:\\Game\\Server\\Model\\Server.Model.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Game\\Server\\Model\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5978,14 +5973,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\ET6HotUpdateModel\\ThirdParty\\ETTask\\ETTask.csproj": {
-              "projectPath": "C:\\ET6HotUpdateModel\\ThirdParty\\ETTask\\ETTask.csproj"
+            "D:\\Game\\ThirdParty\\ETTask\\ETTask.csproj": {
+              "projectPath": "D:\\Game\\ThirdParty\\ETTask\\ETTask.csproj"
             },
-            "C:\\ET6HotUpdateModel\\ThirdParty\\ShareLib\\ShareLib.csproj": {
-              "projectPath": "C:\\ET6HotUpdateModel\\ThirdParty\\ShareLib\\ShareLib.csproj"
+            "D:\\Game\\ThirdParty\\ShareLib\\ShareLib.csproj": {
+              "projectPath": "D:\\Game\\ThirdParty\\ShareLib\\ShareLib.csproj"
             },
-            "C:\\ET6HotUpdateModel\\ThirdParty\\UnityEngine\\UnityEngine.csproj": {
-              "projectPath": "C:\\ET6HotUpdateModel\\ThirdParty\\UnityEngine\\UnityEngine.csproj"
+            "D:\\Game\\ThirdParty\\UnityEngine\\UnityEngine.csproj": {
+              "projectPath": "D:\\Game\\ThirdParty\\UnityEngine\\UnityEngine.csproj"
             }
           }
         }
@@ -6016,7 +6011,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

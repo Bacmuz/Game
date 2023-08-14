@@ -45,21 +45,15 @@ namespace ET
 
 		public static async void OnGongGao(this UILoginComponent self) {
 
-			UIHelper.Create(self.ZoneScene(), UIType.UIGongGao, UILayer.Mid).Coroutine();
-
-			/*
-			GameObject ObjGonggaoUI = MonoBehaviour.Instantiate(GameLoadAssetsHelp.LoadUIPrefab(LoadAssets_UIType.UILogin, "UIGameGongGao"));
-			ObjGonggaoUI.transform.SetParent(self.Parent.GetComponent<GameObjectComponent>().GameObject.transform);
-			ObjGonggaoUI.transform.localScale = new Vector3(1, 1, 1);
-
-			ObjGonggaoUI.AddComponent<UIGameGongGaoComponent>();
-			*/
+			//创建公告UI
+			await UIHelper.Create(self.ZoneScene(), UIType.UIGongGao, UILayer.Mid);
 
 		}
 
         public static async void OnStart(this UILoginComponent self)
         {
-            UIHelper.Create(self.ZoneScene(), UIType.UIGuanQia, UILayer.Mid).Coroutine();
+			//创建关卡UI
+            await UIHelper.Create(self.ZoneScene(), UIType.UIGuanQia, UILayer.Mid);
         }
     }
 }

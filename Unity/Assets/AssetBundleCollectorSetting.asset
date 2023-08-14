@@ -57,8 +57,8 @@ MonoBehaviour:
         CollectorGUID: aa12d62382e996e45ab01c56d1a192e4
         CollectorType: 0
         AddressRuleName: AddressByFileName
-        PackRuleName: PackRawFile
-        FilterRuleName: CollectAll
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectSprite
         AssetTags: 
         UserData: 
     - GroupName: Prefab

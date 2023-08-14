@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using YooAsset;
+using static UnityEngine.Rendering.VirtualTexturing.Debugging;
 
 namespace ET
 {
@@ -57,7 +58,7 @@ namespace ET
         {
             //初始化值
             InitPackage();
-            AssetOperationHandle asshandle = package.LoadAssetSync<Sprite>("Assets/Bundles/Icon/"+ typePath+"/"+ fileName);
+            AssetOperationHandle asshandle = package.LoadAssetSync<Sprite>("Assets/Bundles/Icon/"+ typePath+"/"+ fileName+".png");
             return asshandle.AssetObject as Sprite;
         }
 
@@ -102,6 +103,17 @@ namespace ET
             return dllObj;
         }
 
+
+        //--------------加载场景--------------
+        public static void LoadAsyncScene(string fileName)
+        {
+            //初始化值
+            InitPackage();
+            var sceneMode = UnityEngine.SceneManagement.LoadSceneMode.Single;
+            bool suspendLoad = false;
+            SceneOperationHandle sceneObj = package.LoadSceneAsync("Assets/Scenes/" + fileName, sceneMode, suspendLoad);
+            
+        }
 
         //--------------加载配置文件-------------
         public static byte[] LoadConfig(string fileName)

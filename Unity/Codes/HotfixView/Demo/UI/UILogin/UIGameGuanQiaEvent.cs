@@ -9,8 +9,7 @@ namespace ET
         public override async ETTask<UI> OnCreate(UIComponent uiComponent, UILayer uiLayer)
         {
             Debug.Log("开始公告界面..." + UIType.UILogin.StringToAB());
-            await uiComponent.Domain.GetComponent<ResourcesLoaderComponent>().LoadAsync(UIType.UIGuanQia.StringToAB());
-            GameObject bundleGameObject = (GameObject)ResourcesComponent.Instance.GetAsset(UIType.UIGuanQia.StringToAB(), UIType.UIGuanQia);
+            GameObject bundleGameObject = (GameObject)GameLoadAssetsHelp.LoadUIPrefab(LoadAssets_UIType.UILogin, "UIGameGuanQia"); ;
             GameObject gameObject = UnityEngine.Object.Instantiate(bundleGameObject, UIEventComponent.Instance.UILayers[(int)uiLayer]);
             UI ui = uiComponent.AddChild<UI, string, GameObject>(UIType.UIGuanQia, gameObject);
             ui.AddComponent<UIGameGuanQiaComponent>();

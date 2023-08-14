@@ -189,19 +189,19 @@ namespace ET
                     System.Reflection.Assembly aa;
 					System.Runtime.Serialization.IgnoreDataMemberAttribute gnoreDataMemberAttribute;
 
-                    Debug.Log("更新流程11111111111111" + " assBytes:" + assBytes.Length + " pdbBytes:" + pdbBytes.Length);
+                    //Debug.Log("更新流程11111111111111" + " assBytes:" + assBytes.Length + " pdbBytes:" + pdbBytes.Length);
                     assembly = Assembly.Load(assBytes, pdbBytes);
-                    Debug.Log("更新流程2222222222222");
+                    //Debug.Log("更新流程2222222222222");
                     foreach (Type type in this.assembly.GetTypes())
                     {
                         this.monoTypes[type.FullName] = type;
                         this.hotfixTypes[type.FullName] = type;
                     }
-                    Debug.Log("更新流程3333");
+                    //Debug.Log("更新流程3333");
                     IStaticMethod start = new MonoStaticMethod(assembly, "ET.Entry", "Start");
-                    Debug.Log("更新流程4444");
+                    //Debug.Log("更新流程4444");
                     start.Run();
-                    Debug.Log("更新流程5555");
+                    //Debug.Log("更新流程5555");
                     break;
                 }
 
