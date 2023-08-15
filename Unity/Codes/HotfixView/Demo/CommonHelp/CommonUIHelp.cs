@@ -18,6 +18,7 @@ namespace ET
 
             //添加unit控件
             scene.AddComponent<UnitComponent>();
+            //创建进入关卡的数据
             CommonUIHelp.EnterGuanQiaCreate(scene);
         }
 
@@ -27,25 +28,15 @@ namespace ET
 
             await TimerComponent.Instance.WaitAsync(5000);
 
-            //Debug.Log("1111111111111111111111111111111");
-
             //创建主角
             UnitInfo info = new UnitInfo();
-            //临时数据
+            //临时数据,设置主角初始位置
             info.X = -1f;
             info.Y = -0.6f;
             info.Z = -4.8f;
             info.UnitId = 1;
             info.ConfigId = 1001;
             Unit unit = UnitFactoryDanJi.CreatePlay(scene, info);
-
-            //GameObject playerObj = MonoBehaviour.Instantiate(GameLoadAssetsHelp.LoadUnit(LoadAssets_UnitType.Player, "Player"));
-            //playerObj.transform.position = new Vector3(-1f,- 0.6f, -4.8f);
-            //playerObj.AddComponent<Playercontrol>();
-            //playerObj.AddComponent<CameraMainTargetComponent>();
-
-            //Unit aa = new Unit();
-            //aa.AddComponent<CameraMainTargetComponent>();
 
             //修改当前主摄像机跟随目标
             Camera.main.transform.GetComponent<Cameracontrol>().ball = unit.GetComponent<GameObjectComponent>().GameObject;
