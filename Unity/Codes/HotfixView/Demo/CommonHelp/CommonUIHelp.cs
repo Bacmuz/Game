@@ -26,6 +26,7 @@ namespace ET
         //进入关卡创建对应的角色和UI
         public static async void EnterGuanQiaCreate(Scene scene) {
 
+            //延迟5秒后执行
             await TimerComponent.Instance.WaitAsync(5000);
 
             //创建主角
