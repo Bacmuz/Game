@@ -97,7 +97,12 @@ namespace ET
         {
             public Unit Unit;
         }
-        
+
+        public struct UnitDanJiCreate
+        {
+            public Unit Unit;
+        }
+
         public struct MoveStart
         {
             public Unit Unit;

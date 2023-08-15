@@ -21,6 +21,10 @@ namespace ET
             {
                 numericComponent.Set(unitInfo.Ks[i], unitInfo.Vs[i]);
             }
+
+            //抛出事件
+            Game.EventSystem.Publish(new EventType.UnitDanJiCreate() { Unit = unit });
+
             return unit;
         }
 
