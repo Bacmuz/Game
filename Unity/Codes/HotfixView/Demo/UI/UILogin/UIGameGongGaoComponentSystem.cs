@@ -46,7 +46,7 @@ namespace ET
             self.GongGaoSpr.GetComponent <Image>().sprite = spr;
 
             //≤‚ ‘º”‘ÿ≥°æ∞
-            GameLoadAssetsHelp.LoadAsyncScene("Map2");
+            //GameLoadAssetsHelp.LoadAsyncScene("Map2");
         }
     }
 

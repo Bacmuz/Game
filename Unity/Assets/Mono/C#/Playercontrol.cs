@@ -1,3 +1,4 @@
+using ET;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,15 +6,17 @@ using UnityEngine.SceneManagement;
 
 public class Playercontrol : MonoBehaviour
 {
-    public GameObject die;    //死亡UI
+    //public GameObject die;    //死亡UI
     public float m_speed = 1.2f;  //速度
-    public GameObject bombPrefab;   //炸弹预设体
-    public float CD = 1;    //间隔时间
+    //public GameObject bombPrefab;   //炸弹预设体
+    //public float CD = 1;    //间隔时间
     public int hp = 1;    //血量
     public float timer = 0;    //计时器
-    public GameObject Player;    //获取游戏对象
+    //public GameObject Player;    //获取游戏对象
     public float diet = 0;    //死亡后计时
     private ScrollCircle sc;    //获取ScrollCircle
+    public bool DieFlag = false;    //判断死亡ui是否打开
+    public string WinFlag = "false";    //判断胜利ui是否打开
     private Vector3 v;
     private Rigidbody rb;
     
@@ -23,14 +26,15 @@ public class Playercontrol : MonoBehaviour
         {
             hp -= 1;
         }
-        if(hp<=0)    //如果血量为0或者掉落，则跳转至死亡面板
+        if(hp<=0 && DieFlag == false)    //如果血量为0或者掉落，则跳转至死亡面板
         {
             transform.gameObject.GetComponent<Animator>().Play("die");
             diet  += Time.deltaTime;    //死亡后计时
             if(diet >= 1.5)
             {
-            //SceneManager.LoadScene("Die");    //死亡1.5s后跳转死亡界面
-            die.GetComponent<CanvasGroup>().alpha = 1;    //死亡1.5s后显示死亡UI
+                //SceneManager.LoadScene("Die");    //死亡1.5s后跳转死亡界面
+                //die.GetComponent<CanvasGroup>().alpha = 1;    //死亡1.5s后显示死亡UI
+                Die();
             }
         }
         else
@@ -59,6 +63,10 @@ public class Playercontrol : MonoBehaviour
                 transform.gameObject.GetComponent<Animator>().Play("boom");    //播放释放炸弹动画
             }
             */
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            int enemyCount = enemies.Length;
+            if (enemyCount == 0 && WinFlag == "false")
+                Win();
         }
     }
 
@@ -85,5 +93,23 @@ public class Playercontrol : MonoBehaviour
     public void GetHit()
     {
         hp -= 1;    //受到伤害Hp减1
+    }
+
+    public void Die()
+    {
+        Debug.Log("789我死了");
+        //获取死亡UI
+        GameObject Dieprefab = GameLoadAssetsHelp.LoadEffect(LoadAssets_EffectType.Skill, "Die");
+        GameObject Diegol = UnityEngine.Object.Instantiate(Dieprefab);
+        DieFlag = true;
+    }
+
+    public void Win()
+    {
+        Debug.Log("789我胜利了");
+        //获取死亡UI
+        GameObject Winprefab = GameLoadAssetsHelp.LoadEffect(LoadAssets_EffectType.Skill, "Win");
+        GameObject Wingol = UnityEngine.Object.Instantiate(Winprefab);
+        WinFlag = "true";
     }
 }

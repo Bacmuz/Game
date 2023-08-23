@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HuBCEJzXyK8bkypO1Er5v9fn87VR283/OejakkOhyYCd+mSe43eWE0scLaqPxMiBumqiTkJCrWJcRQY3IoEbBg==",
+  "dgSpecHash": "77uamlYTcD9pAwS5tsmo2dtuUIc7J1McGdfN5pqGeltAjbKvwasdlTZQdUliap/clM2SSseRVFIuw10zZzzbhw==",
   "success": true,
-  "projectFilePath": "D:\\Game\\ThirdParty\\ETTask\\ETTask.csproj",
+  "projectFilePath": "C:\\Game\\ThirdParty\\ETTask\\ETTask.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

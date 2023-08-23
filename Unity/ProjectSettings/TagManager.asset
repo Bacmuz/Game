@@ -9,6 +9,8 @@ TagManager:
   - Fire
   - Cube
   - UIWin
+  - Unit
+  - BearPosition
   layers:
   - Default
   - TransparentFX

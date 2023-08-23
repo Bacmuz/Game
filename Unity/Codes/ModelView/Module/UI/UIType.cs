@@ -13,5 +13,9 @@ namespace ET
 
         public const string UIGongGao = "UIGameGongGao";
         public const string UIGuanQia = "UIGameGuanQia";
+
+        public const string UIMove = "UIMove";
+        public const string UIGongJi = "UIGongJi";
+
     }
 }

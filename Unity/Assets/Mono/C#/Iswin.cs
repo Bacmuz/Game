@@ -14,6 +14,8 @@ public class Iswin : MonoBehaviour
         {
             //SceneManager.LoadScene("Win");    //胜利场景跳转
             win.GetComponent<CanvasGroup>().alpha = 1;
+
+            Debug.Log("获得了胜利");
         }
     }
 }

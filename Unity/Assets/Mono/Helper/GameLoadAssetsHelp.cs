@@ -92,6 +92,18 @@ namespace ET
             return dllObj;
         }
 
+        //--------------加载预制件Effect--------------
+        public static GameObject LoadEffect(string typePath, string fileName)
+        {
+            //初始化值
+            InitPackage();
+            AssetOperationHandle codeDllObj = package.LoadAssetSync<GameObject>("Assets/Bundles/Effect/" + typePath + "/" + fileName);
+            GameObject dllObj = (GameObject)codeDllObj.AssetObject;
+            return dllObj;
+        }
+
+
+
 
         //--------------加载预制件Video--------------
         public static GameObject LoadVideo(string fileName)

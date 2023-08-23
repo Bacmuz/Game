@@ -13,8 +13,9 @@ public class Enemycontrol : MonoBehaviour
     public GameObject fire;    //法球预设体
     private Transform _firePosition;    //发射位置
     public float shellSpeed = 2f;    //法球速度
-    public float cd = 2;    //攻击冷却
+    public float cd = 3;    //攻击冷却
     public AudioClip audioClip;   //拖入音频源
+    public float dietimer = 0;    //死亡后计时
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
@@ -27,9 +28,9 @@ public class Enemycontrol : MonoBehaviour
         timer += Time.deltaTime;    //计时器
         if(Hp <= 0 || transform.position.y < -1)
         {
-            timer  += Time.deltaTime;    //计时器计时
+            dietimer  += Time.deltaTime;    //计时器计时
             transform.gameObject.GetComponent<Animator>().Play("die");    //播放死亡动画
-            if(timer >=1.5)
+            if(dietimer >=1.5)
             {
                 Destroy(gameObject);    //1.5s后销毁游戏物体
             }

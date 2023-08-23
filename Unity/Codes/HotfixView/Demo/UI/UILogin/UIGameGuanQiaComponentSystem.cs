@@ -48,6 +48,8 @@ namespace ET
             GameLoadAssetsHelp.LoadAsyncScene("Level 1");
 
             CommonUIHelp.EnterGuanQiaClearnUI(self.DomainScene());
+
+            
         }
 
     }

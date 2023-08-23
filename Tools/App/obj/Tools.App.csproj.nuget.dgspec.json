@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Game\\Tools\\App\\Tools.App.csproj": {}
+    "C:\\Game\\Tools\\App\\Tools.App.csproj": {}
   },
   "projects": {
-    "D:\\Game\\ThirdParty\\ETTask\\ETTask.csproj": {
+    "C:\\Game\\ThirdParty\\ETTask\\ETTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Game\\ThirdParty\\ETTask\\ETTask.csproj",
+        "projectUniqueName": "C:\\Game\\ThirdParty\\ETTask\\ETTask.csproj",
         "projectName": "ETTask",
-        "projectPath": "D:\\Game\\ThirdParty\\ETTask\\ETTask.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Game\\ThirdParty\\ETTask\\obj\\",
+        "projectPath": "C:\\Game\\ThirdParty\\ETTask\\ETTask.csproj",
+        "packagesPath": "C:\\Users\\kk\\.nuget\\packages\\",
+        "outputPath": "C:\\Game\\ThirdParty\\ETTask\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,21 +59,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Game\\ThirdParty\\ShareLib\\ShareLib.csproj": {
+    "C:\\Game\\ThirdParty\\ShareLib\\ShareLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Game\\ThirdParty\\ShareLib\\ShareLib.csproj",
+        "projectUniqueName": "C:\\Game\\ThirdParty\\ShareLib\\ShareLib.csproj",
         "projectName": "ShareLib",
-        "projectPath": "D:\\Game\\ThirdParty\\ShareLib\\ShareLib.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Game\\ThirdParty\\ShareLib\\obj\\",
+        "projectPath": "C:\\Game\\ThirdParty\\ShareLib\\ShareLib.csproj",
+        "packagesPath": "C:\\Users\\kk\\.nuget\\packages\\",
+        "outputPath": "C:\\Game\\ThirdParty\\ShareLib\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Game\\ThirdParty\\UnityEngine\\UnityEngine.csproj": {
-                "projectPath": "D:\\Game\\ThirdParty\\UnityEngine\\UnityEngine.csproj"
+              "C:\\Game\\ThirdParty\\UnityEngine\\UnityEngine.csproj": {
+                "projectPath": "C:\\Game\\ThirdParty\\UnityEngine\\UnityEngine.csproj"
               }
             }
           }
@@ -152,21 +160,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Game\\ThirdParty\\UnityEngine\\UnityEngine.csproj": {
+    "C:\\Game\\ThirdParty\\UnityEngine\\UnityEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Game\\ThirdParty\\UnityEngine\\UnityEngine.csproj",
+        "projectUniqueName": "C:\\Game\\ThirdParty\\UnityEngine\\UnityEngine.csproj",
         "projectName": "UnityEngine",
-        "projectPath": "D:\\Game\\ThirdParty\\UnityEngine\\UnityEngine.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Game\\ThirdParty\\UnityEngine\\obj\\",
+        "projectPath": "C:\\Game\\ThirdParty\\UnityEngine\\UnityEngine.csproj",
+        "packagesPath": "C:\\Users\\kk\\.nuget\\packages\\",
+        "outputPath": "C:\\Game\\ThirdParty\\UnityEngine\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -207,21 +219,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Game\\Tools\\App\\Tools.App.csproj": {
+    "C:\\Game\\Tools\\App\\Tools.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Game\\Tools\\App\\Tools.App.csproj",
+        "projectUniqueName": "C:\\Game\\Tools\\App\\Tools.App.csproj",
         "projectName": "Tools",
-        "projectPath": "D:\\Game\\Tools\\App\\Tools.App.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Game\\Tools\\App\\obj\\",
+        "projectPath": "C:\\Game\\Tools\\App\\Tools.App.csproj",
+        "packagesPath": "C:\\Users\\kk\\.nuget\\packages\\",
+        "outputPath": "C:\\Game\\Tools\\App\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -235,11 +251,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Game\\ThirdParty\\ETTask\\ETTask.csproj": {
-                "projectPath": "D:\\Game\\ThirdParty\\ETTask\\ETTask.csproj"
+              "C:\\Game\\ThirdParty\\ETTask\\ETTask.csproj": {
+                "projectPath": "C:\\Game\\ThirdParty\\ETTask\\ETTask.csproj"
               },
-              "D:\\Game\\ThirdParty\\ShareLib\\ShareLib.csproj": {
-                "projectPath": "D:\\Game\\ThirdParty\\ShareLib\\ShareLib.csproj"
+              "C:\\Game\\ThirdParty\\ShareLib\\ShareLib.csproj": {
+                "projectPath": "C:\\Game\\ThirdParty\\ShareLib\\ShareLib.csproj"
               }
             }
           }
@@ -270,7 +286,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
