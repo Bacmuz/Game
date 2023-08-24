@@ -45,12 +45,6 @@ namespace ET
             //º”‘ÿicon
             Sprite spr = GameLoadAssetsHelp.LoadSpritePath(LoadAssets_IconType.ItemIcon, "1003");
             self.GongGaoSpr.GetComponent <Image>().sprite = spr;
-<<<<<<< HEAD
-
-            //≤‚ ‘º”‘ÿ≥°æ∞
-            //GameLoadAssetsHelp.LoadAsyncScene("Map2");
-=======
->>>>>>> 93349debc45ab33a88c3c3c32726a8b850be106e
         }
     }
 

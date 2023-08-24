@@ -58,3 +58,15 @@ D:\Game\ThirdParty\ETTask\obj\Debug\ETTask.dll
 D:\Game\ThirdParty\ETTask\obj\Debug\refint\ETTask.dll
 D:\Game\ThirdParty\ETTask\obj\Debug\ETTask.pdb
 D:\Game\ThirdParty\ETTask\obj\Debug\ref\ETTask.dll
+C:\Game\Bin\ETTask.deps.json
+C:\Game\Bin\ETTask.dll
+C:\Game\Bin\ETTask.pdb
+C:\Game\ThirdParty\ETTask\obj\Debug\ETTask.csproj.AssemblyReference.cache
+C:\Game\ThirdParty\ETTask\obj\Debug\ETTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Game\ThirdParty\ETTask\obj\Debug\ETTask.AssemblyInfoInputs.cache
+C:\Game\ThirdParty\ETTask\obj\Debug\ETTask.AssemblyInfo.cs
+C:\Game\ThirdParty\ETTask\obj\Debug\ETTask.csproj.CoreCompileInputs.cache
+C:\Game\ThirdParty\ETTask\obj\Debug\ETTask.dll
+C:\Game\ThirdParty\ETTask\obj\Debug\refint\ETTask.dll
+C:\Game\ThirdParty\ETTask\obj\Debug\ETTask.pdb
+C:\Game\ThirdParty\ETTask\obj\Debug\ref\ETTask.dll

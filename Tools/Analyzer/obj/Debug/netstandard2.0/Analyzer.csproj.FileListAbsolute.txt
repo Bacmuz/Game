@@ -48,3 +48,13 @@ D:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.AssemblyInfo.cs
 D:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.csproj.CoreCompileInputs.cache
 D:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.dll
 D:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.pdb
+C:\Game\Tools\Analyzer\bin\Debug\netstandard2.0\Analyzer.deps.json
+C:\Game\Tools\Analyzer\bin\Debug\netstandard2.0\Analyzer.dll
+C:\Game\Tools\Analyzer\bin\Debug\netstandard2.0\Analyzer.pdb
+C:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.csproj.AssemblyReference.cache
+C:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.AssemblyInfoInputs.cache
+C:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.AssemblyInfo.cs
+C:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.csproj.CoreCompileInputs.cache
+C:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.dll
+C:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.pdb

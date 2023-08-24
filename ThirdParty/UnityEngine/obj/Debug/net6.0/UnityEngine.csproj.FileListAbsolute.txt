@@ -58,3 +58,15 @@ D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.dll
 D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\refint\UnityEngine.dll
 D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.pdb
 D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\ref\UnityEngine.dll
+C:\Game\Bin\net6.0\UnityEngine.deps.json
+C:\Game\Bin\net6.0\UnityEngine.dll
+C:\Game\Bin\net6.0\UnityEngine.pdb
+C:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.csproj.AssemblyReference.cache
+C:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.AssemblyInfoInputs.cache
+C:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.AssemblyInfo.cs
+C:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.csproj.CoreCompileInputs.cache
+C:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.dll
+C:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\refint\UnityEngine.dll
+C:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.pdb
+C:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\ref\UnityEngine.dll
