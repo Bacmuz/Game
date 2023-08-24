@@ -47,6 +47,7 @@ namespace ET
             //加载关卡场景
             GameLoadAssetsHelp.LoadAsyncScene("Level 1");
 
+            //加载场景后摇处理的东西
             CommonUIHelp.EnterGuanQiaClearnUI(self.DomainScene());
 
             

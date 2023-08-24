@@ -46,3 +46,15 @@ C:\ET6HotUpdateModel\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.dll
 C:\ET6HotUpdateModel\ThirdParty\UnityEngine\obj\Debug\net6.0\refint\UnityEngine.dll
 C:\ET6HotUpdateModel\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.pdb
 C:\ET6HotUpdateModel\ThirdParty\UnityEngine\obj\Debug\net6.0\ref\UnityEngine.dll
+D:\Game\Bin\net6.0\UnityEngine.deps.json
+D:\Game\Bin\net6.0\UnityEngine.dll
+D:\Game\Bin\net6.0\UnityEngine.pdb
+D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.csproj.AssemblyReference.cache
+D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.GeneratedMSBuildEditorConfig.editorconfig
+D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.AssemblyInfoInputs.cache
+D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.AssemblyInfo.cs
+D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.csproj.CoreCompileInputs.cache
+D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.dll
+D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\refint\UnityEngine.dll
+D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\UnityEngine.pdb
+D:\Game\ThirdParty\UnityEngine\obj\Debug\net6.0\ref\UnityEngine.dll

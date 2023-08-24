@@ -2,6 +2,7 @@ using System;
 using System.Net;
 
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 using UnityEngine.UI;
 
 namespace ET
@@ -36,7 +37,7 @@ namespace ET
     {
 
         public static async void OnBtnClose(this UIGameGongGaoComponent self) {
-            await UIHelper.Remove(self.ZoneScene(), UIType.UIGongGao);
+            UIHelper.Remove(self.ZoneScene(), UIType.UIGongGao).Coroutine();
         }
  
         public static void ShowImg(this UIGameGongGaoComponent self)
@@ -44,9 +45,12 @@ namespace ET
             //º”‘ÿicon
             Sprite spr = GameLoadAssetsHelp.LoadSpritePath(LoadAssets_IconType.ItemIcon, "1003");
             self.GongGaoSpr.GetComponent <Image>().sprite = spr;
+<<<<<<< HEAD
 
             //≤‚ ‘º”‘ÿ≥°æ∞
             //GameLoadAssetsHelp.LoadAsyncScene("Map2");
+=======
+>>>>>>> 93349debc45ab33a88c3c3c32726a8b850be106e
         }
     }
 

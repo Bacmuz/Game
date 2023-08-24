@@ -38,3 +38,13 @@ C:\ET6HotUpdateModel\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.AssemblyIn
 C:\ET6HotUpdateModel\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.csproj.CoreCompileInputs.cache
 C:\ET6HotUpdateModel\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.dll
 C:\ET6HotUpdateModel\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.pdb
+D:\Game\Tools\Analyzer\bin\Debug\netstandard2.0\Analyzer.deps.json
+D:\Game\Tools\Analyzer\bin\Debug\netstandard2.0\Analyzer.dll
+D:\Game\Tools\Analyzer\bin\Debug\netstandard2.0\Analyzer.pdb
+D:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.csproj.AssemblyReference.cache
+D:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.AssemblyInfoInputs.cache
+D:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.AssemblyInfo.cs
+D:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.csproj.CoreCompileInputs.cache
+D:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.dll
+D:\Game\Tools\Analyzer\obj\Debug\netstandard2.0\Analyzer.pdb
