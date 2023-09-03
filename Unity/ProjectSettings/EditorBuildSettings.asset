@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/OldAssets/Scenes/Die.unity
     guid: 110e13068399c9448aa9993c0d69b08a
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
     path: Assets/OldAssets/Scenes/Levelselect.unity
     guid: 62fb3dbcb08292a4791d1bb12f1217a6
   - enabled: 1
@@ -26,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/OldAssets/Scenes/Win.unity
     guid: 04ef63f0993fd4d418863e290fcb8cdc
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/10001.unity
+    guid: 42717cd115cd21840937f4a08fb85c3e
   m_configObjects: {}

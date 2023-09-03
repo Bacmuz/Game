@@ -33,9 +33,9 @@ namespace ET
             UnitInfo info = new UnitInfo();
 
             //临时数据,设置主角初始位置
-            info.X = -1f;
-            info.Y = -0.6f;
-            info.Z = -4.8f;
+            info.X = -3f;
+            info.Y = 1f;
+            info.Z = 2f;
 
             info.UnitId = 1;
             info.ConfigId = 1001;
@@ -57,25 +57,24 @@ namespace ET
             Camera.main.transform.GetComponent<Cameracontrol>().Init();
 
             //创建摇杆
+            /*
             GameObject YaoGanFather = GameObject.Find("UI");    //获取摇杆的父节点
             GameObject Move = YaoGanFather.transform.Find("UIMove").gameObject;    //通过父节点找到禁用的摇杆UI
             GameObject GongJi = YaoGanFather.transform.Find("UIGongJi").gameObject;
             Move.SetActive(true);    //启用
             GongJi.SetActive(true);
-
+            */
 
             //创建敌人
-            GameObject bearposition = GameLoadAssetsHelp.LoadEffect(LoadAssets_EffectType.Skill, "BearPosition");    //获取放置熊法师的位置
             GameObject prefab = GameLoadAssetsHelp.LoadUnit(LoadAssets_UnitType.Monster, "FaShiBear");
-            GameObject enemy = UnityEngine.Object.Instantiate(prefab, bearposition.transform.position, bearposition.transform.rotation);
-            Debug.Log(enemy.name);
+            GameObject enemy = UnityEngine.Object.Instantiate(prefab, new Vector3(0.35f, 1f, 24f), Quaternion.identity);
+            
+            GameObject GongJiprefab = GameLoadAssetsHelp.LoadUIPrefab(LoadAssets_UIType.UIYaoGan, "UIGongJi");
+            GameObject GongJigol = UnityEngine.Object.Instantiate(GongJiprefab);
+            GameObject Moveprefab = GameLoadAssetsHelp.LoadUIPrefab(LoadAssets_UIType.UIYaoGan, "UIMove");
+            GameObject Movegol = UnityEngine.Object.Instantiate(Moveprefab);
+            
 
-
-            /*
-            //生成炸弹
-            GameObject prefab = GameLoadAssetsHelp.LoadEffect(LoadAssets_EffectType.Skill,"Boom");
-            GameObject go1 = UnityEngine.Object.Instantiate(prefab);
-            */
         }
 
     }

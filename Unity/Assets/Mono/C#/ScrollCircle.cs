@@ -10,16 +10,13 @@ public class ScrollCircle : ScrollRect
     public float x=0;
     public float y=0;
     private Vector3 v2;
-    // Use this for initialization
+
     protected override void Start()
     {
         base.Start();
         //能移动的半径 = 摇杆的宽 * Dis
         mradius = content.sizeDelta.x * dis;
         hero = GameObject.FindGameObjectWithTag("Player");    //获取角色
-        //Vector3 posi = Camera.main.WorldToScreenPoint(hero.transform.position);    //将角色的世界坐标转化为屏幕上的坐标
-        //posi -= new Vector3(Screen.width / 5, Screen.height /10, 0);    //Screen.width和Screen.height分别代表屏幕的宽和高
-        //this.transform.position = posi;    //设置虚拟摇杆的位置，让其保持在角色左边
 	}
 
     //当拖动摇杆时触发

@@ -26,7 +26,7 @@ public class Enemycontrol : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;    //计时器
-        if(Hp <= 0 || transform.position.y < -1)
+        if(Hp <= 0 || transform.position.y < -3)
         {
             dietimer  += Time.deltaTime;    //计时器计时
             transform.gameObject.GetComponent<Animator>().Play("die");    //播放死亡动画
@@ -38,20 +38,14 @@ public class Enemycontrol : MonoBehaviour
         else
         {
             float dis = Vector3.Distance(player.transform.position, transform.position);    //获取玩家和敌人之间的距离
-            float l = Vector3.Distance(new Vector3(-1.7f, -0.5f, 4.7f), transform.position);    //获取敌人和定点之间的距离
-            if(dis < 6f && dis > 4f && transform.position.y > -1)
+            if(dis < 6f && dis > 4f && transform.position.y > -3)
             {
                 transform.LookAt(player.transform);    //距离小于2会看向玩家
-                //transform.Translate(Vector3.forward * Speed * Time.deltaTime);    //朝前走去
                 nav.SetDestination(player.transform.position);
                 transform.gameObject.GetComponent<Animator>().Play("run");    //播放运动动画
             }
             else if(dis <= 4f)
             {
-                //transform.LookAt(new Vector3(-1.7f, -0.5f, 4.7f));    //看向定义的位置
-                //transform.Translate(Vector3.forward * Speed  * Time.deltaTime);    //朝前走去
-                //nav.SetDestination(Vector3.forward);
-                //transform.gameObject.GetComponent<Animator>().Play("run");    //播放运动动画
                 
                 if(timer >= cd)    //如果冷却好了
                 {
@@ -59,7 +53,6 @@ public class Enemycontrol : MonoBehaviour
                 GameObject fireInstance = GameObject.Instantiate(fire, _firePosition.position, _firePosition.rotation);    //生成法球
                 AudioSource.PlayClipAtPoint(audioClip,transform.position);    //产生音效
                 transform.gameObject.GetComponent<Animator>().Play("atk");    //播放攻击动画
-                //fireInstance.GetComponent<Rigidbody>().velocity = fireInstance.transform.forward * shellSpeed;    //给法球施加速度
                 timer = 0;
                 }
             }

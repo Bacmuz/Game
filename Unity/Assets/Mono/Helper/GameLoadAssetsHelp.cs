@@ -20,6 +20,7 @@ namespace ET
     {
         public const string UICommon = "UICommon";      //通用控件
         public const string UILogin = "UILogin";      //通用控件
+        public const string UIYaoGan = "UIYaoGan";
     }
 
     public static class LoadAssets_UnitType

@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5221511881765591902}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.071, y: -0.567, z: -4.861}
+  m_LocalPosition: {x: -7, y: -2.88, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8985783038698999599}
@@ -47,15 +47,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20061ffe2cbf9f148b4cbb572fba0c25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  die: {fileID: 0}
   m_speed: 1.2
-  bombPrefab: {fileID: 2022023320735415381, guid: 7e5000e1f805acd49bd2309e93b14c12,
-    type: 3}
-  CD: 1
   hp: 1
   timer: 0
-  Player: {fileID: 5221511881765591902}
   diet: 0
+  DieFlag: 0
+  WinFlag: false
 --- !u!95 &5221511881765591900
 Animator:
   serializedVersion: 3

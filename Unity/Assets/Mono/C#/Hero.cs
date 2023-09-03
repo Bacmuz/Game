@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class Hero : MonoBehaviour {
 
-    public Animator anim;
+    //public Animator anim;
     private ScrollCircle sc;
     private Vector3 v;
     private Rigidbody rb;
-	// Use this for initialization
 	void Start () {
         sc = GameObject.FindGameObjectWithTag("Canvas").GetComponentInChildren<ScrollCircle>();    //获取ScrollCircle
-        rb = this.GetComponent<Rigidbody>();//获取缸体
+        rb = this.GetComponent<Rigidbody>();//获取刚体
 	}
     void FixedUpdate()
     {

@@ -6,13 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class Playercontrol : MonoBehaviour
 {
-    //public GameObject die;    //死亡UI
     public float m_speed = 1.2f;  //速度
-    //public GameObject bombPrefab;   //炸弹预设体
-    //public float CD = 1;    //间隔时间
     public int hp = 1;    //血量
     public float timer = 0;    //计时器
-    //public GameObject Player;    //获取游戏对象
     public float diet = 0;    //死亡后计时
     private ScrollCircle sc;    //获取ScrollCircle
     public bool DieFlag = false;    //判断死亡ui是否打开
@@ -22,7 +18,7 @@ public class Playercontrol : MonoBehaviour
     
     void Update()
     {
-        if(transform.position.y < -1)
+        if(transform.position.y < -3)
         {
             hp -= 1;
         }
@@ -32,41 +28,17 @@ public class Playercontrol : MonoBehaviour
             diet  += Time.deltaTime;    //死亡后计时
             if(diet >= 1.5)
             {
-                //SceneManager.LoadScene("Die");    //死亡1.5s后跳转死亡界面
-                //die.GetComponent<CanvasGroup>().alpha = 1;    //死亡1.5s后显示死亡UI
                 Die();
             }
         }
         else
         {
-            /*
-            float horizontal = Input.GetAxis("Horizontal"); //获取水平轴
-            float vertical = Input.GetAxis("Vertical"); //垂直轴
-            Vector3 dir = new Vector3(horizontal,0,vertical);   //获取向量
-            if(dir != Vector3.zero)    //如果向量不为零，则在运动
-            {
-                transform.rotation = Quaternion.LookRotation(dir);  //角色朝向向量的方向
-                transform.position += dir * m_speed * Time.deltaTime;   //进行移动
-                //运动状态，播放移动动画
-                transform.gameObject.GetComponent<Animator>().Play("run");
-            }
-            else
-            {
-                //静止状态，播放站立动画
-                transform.gameObject.GetComponent<Animator>().Play("idle");
-            }           
-            timer += Time.deltaTime;    //计时器
-            if(Input.GetKeyDown (KeyCode.Space)  && timer>=CD)   //按下空格键释放炸弹
-                {
-                Instantiate(bombPrefab, new Vector3(transform.position.x , transform.position.y + 0.14f , transform.position.z),  transform.rotation);    //生成炸弹
-                timer = 0;    //重置CD
-                transform.gameObject.GetComponent<Animator>().Play("boom");    //播放释放炸弹动画
-            }
-            */
             GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
             int enemyCount = enemies.Length;
             if (enemyCount == 0 && WinFlag == "false")
+            {
                 Win();
+            }
         }
     }
 
@@ -97,7 +69,6 @@ public class Playercontrol : MonoBehaviour
 
     public void Die()
     {
-        Debug.Log("789我死了");
         //获取死亡UI
         GameObject Dieprefab = GameLoadAssetsHelp.LoadEffect(LoadAssets_EffectType.Skill, "Die");
         GameObject Diegol = UnityEngine.Object.Instantiate(Dieprefab);
@@ -106,7 +77,6 @@ public class Playercontrol : MonoBehaviour
 
     public void Win()
     {
-        Debug.Log("789我胜利了");
         //获取死亡UI
         GameObject Winprefab = GameLoadAssetsHelp.LoadEffect(LoadAssets_EffectType.Skill, "Win");
         GameObject Wingol = UnityEngine.Object.Instantiate(Winprefab);
